@@ -1,0 +1,17 @@
+/* TOP only. Gameplay, result, story and offer styles are unchanged. */
+#intro .ticket-v5{margin:22px 19px 17px;padding:0;border:0;border-radius:7px;background:none;box-shadow:none;isolation:isolate;overflow:visible}
+#intro .ticket-v5:before{inset:5px -3px -5px 3px;width:auto;height:auto;border:2px solid #ae7919;border-radius:7px;background:linear-gradient(100deg,#c58b21,#fff1a3 38%,#d69f31);transform:rotate(-2deg);z-index:-1}
+#intro .ticket-v5:after{display:none}
+#intro .ticket-face{position:relative;padding:17px 15px 12px;border:5px double #a26c17;border-radius:7px;background:linear-gradient(112deg,transparent 0 29%,#fff9d5aa 30%,transparent 46%),linear-gradient(135deg,#fff3bc 0%,#ffd95d 25%,#fff7ce 48%,#eabb45 74%,#fff0ad 100%);box-shadow:0 5px 0 #09284d,0 10px 16px #09284d22;overflow:hidden}
+#intro .ticket-face:before{content:"";position:absolute;inset:5px;border:1px solid #fff9d7;border-radius:2px;pointer-events:none}
+#intro .ticket-v5 .ticket-top{position:relative;display:table;margin:-7px auto 5px;padding:3px 23px 5px;background:#123d69;color:#fff;font-size:18px;line-height:1.2;letter-spacing:.08em;clip-path:polygon(0 0,100% 0,96% 50%,100% 100%,0 100%,4% 50%)}
+#intro .ticket-v5 strong{position:relative;margin:2px -3px 10px;color:#09284d;font-size:clamp(30px,9.7vw,39px);font-weight:900;line-height:1.3;letter-spacing:-.065em;text-shadow:0 2px #fff8c9;white-space:nowrap}
+#intro .ticket-v5 strong span{color:#bd2425;letter-spacing:-.045em}
+#intro .ticket-v5 .ticket-perf{border-top:2px dashed #967125;margin:0 -15px 8px;position:relative}
+#intro .ticket-footer{display:flex;align-items:center;justify-content:center;gap:17px;position:relative}
+#intro .ticket-v5 .ticket-bottom{font-size:14px;line-height:1.35;letter-spacing:.025em;text-align:left;color:#503712}
+#intro .ticket-seal{display:grid;place-items:center;width:46px;height:46px;border:3px double #b22727;border-radius:50%;color:#a91e20;font-size:18px;font-weight:900;transform:rotate(-12deg);box-shadow:inset 0 0 0 2px #fff2b988}
+#intro .title-v5{padding:12px 5px 9px;border-bottom:0;background:radial-gradient(ellipse at 50% 60%,#fff 0%,#e4f5ff88 48%,transparent 70%),#fffbed;overflow:hidden}
+#intro .title-v5 h1{margin:0;line-height:0;position:static}
+#intro .title-v5 h1 img{display:block;width:100%;height:auto;max-width:none;object-fit:contain}
+@media(max-width:370px){#intro .ticket-v5{margin-left:17px;margin-right:17px}#intro .ticket-face{padding-left:12px;padding-right:12px}#intro .ticket-v5 strong{font-size:34px}#intro .ticket-v5 .ticket-bottom{font-size:14px}#intro .title-v5{padding-left:3px;padding-right:3px}}
